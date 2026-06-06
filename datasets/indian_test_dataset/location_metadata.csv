@@ -1,0 +1,11 @@
+ID,Region,Latitude,Longitude,Before_Year,After_Year,Before_Image,After_Image
+Site_1,"Western Ghats, Karnataka",14.9312,74.6291,2021,2025,Site_1_Before.jpg,Site_1_After.jpg
+Site_2,"Assam Tea Gardens, Assam",26.6528,92.8173,2018,2023,Site_2_Before.jpg,Site_2_After.jpg
+Site_3,"Bastar District, Chhattisgarh",19.2064,81.936,2018,2023,Site_3_Before.jpg,Site_3_After.jpg
+Site_4,"Khammam, Telangana",17.2473,80.1514,2021,2023,Site_4_Before.jpg,Site_4_After.jpg
+Site_5,"Nilgiri Hills, Tamil Nadu",11.4916,76.7337,2020,2023,Site_5_Before.jpg,Site_5_After.jpg
+Site_6,"Sundarbans Margin, West Bengal",22.0911,88.8523,2020,2026,Site_6_Before.jpg,Site_6_After.jpg
+Site_7,"Garo Hills, Meghalaya",25.467,90.3204,2018,2024,Site_7_Before.jpg,Site_7_After.jpg
+Site_8,"Satpura Range, Madhya Pradesh",22.1557,78.4342,2021,2025,Site_8_Before.jpg,Site_8_After.jpg
+Site_9,"Wayanad, Kerala",11.6854,76.132,2021,2024,Site_9_Before.jpg,Site_9_After.jpg
+Site_10,"East Godavari, Andhra Pradesh",17.32,82.04,2020,2026,Site_10_Before.jpg,Site_10_After.jpg

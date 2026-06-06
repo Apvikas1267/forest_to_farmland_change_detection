@@ -1,0 +1,11 @@
+streamlit
+torch
+torchvision
+rasterio
+geopandas
+shapely
+numpy
+pandas
+Pillow
+matplotlib
+tqdm
