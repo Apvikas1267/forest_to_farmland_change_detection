@@ -95,6 +95,11 @@ if file_t1 and file_t2:
     img_t1 = load_image_from_upload(file_t1)
     img_t2 = load_image_from_upload(file_t2)
 
+    # Automatically resize T2 to match T1 if they are different sizes
+    if img_t1.size != img_t2.size:
+        img_t2 = img_t2.resize(img_t1.size, Image.Resampling.LANCZOS)
+        st.warning(f"⚠️ Note: T2 image was automatically resized to perfectly match T1 dimensions ({img_t1.size[0]}x{img_t1.size[1]}).")
+
     st.success("Images uploaded successfully! Running AI models...")
 
     # Run inference
