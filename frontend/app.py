@@ -115,14 +115,14 @@ if file_t1 and file_t2:
     
     c1, c2, c3 = st.columns(3)
     with c1:
-        st.image(img_t1, caption="T1 Image", use_column_width=True)
-        st.image(colorize_prediction(pred_t1), caption="T1 Land Cover", use_column_width=True)
+        st.image(img_t1, caption="T1 Image", use_container_width=True)
+        st.image(colorize_prediction(pred_t1), caption="T1 Land Cover", use_container_width=True)
     with c2:
-        st.image(img_t2, caption="T2 Image", use_column_width=True)
-        st.image(colorize_prediction(pred_t2), caption="T2 Land Cover", use_column_width=True)
+        st.image(img_t2, caption="T2 Image", use_container_width=True)
+        st.image(colorize_prediction(pred_t2), caption="T2 Land Cover", use_container_width=True)
     with c3:
         conversion_overlay = overlay_mask_on_image(img_t2, conversion_mask, color=(255, 0, 0))
-        st.image(conversion_overlay, caption="Detected Conversion (Red)", use_column_width=True)
+        st.image(conversion_overlay, caption="Detected Conversion (Red)", use_container_width=True)
 
     st.header("3. Statistics & Analysis")
     
